@@ -20,7 +20,11 @@ const Login = (props: IProps) => {
     verify: '',
   });
 
+  console.log(2222);
+  console.log(store);
+
   const handleClose = () => {
+    console.log(33333);
     onClose && onClose();
   };
 
