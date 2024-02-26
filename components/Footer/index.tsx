@@ -4,7 +4,7 @@ import styles from './index.module.scss';
 const Footer: NextPage = () => {
   return (
     <div className={styles.footer}>
-      <p>Next.js + React 实战</p>
+      <p>welcome to Technology ₶</p>
     </div>
   );
 };
