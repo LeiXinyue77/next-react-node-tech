@@ -67,7 +67,8 @@ const Login = (props: IProps) => {
 
   const handleOAuthGithub = () => {
     const githubClientid = '31a3fa796c1423dd679f';
-    const redirectUri = 'http://localhost:3000/api/oauth/redirect';
+    const redirectUri =
+      'https://myblog-chi-tawny.vercel.app/api/oauth/redirect';
     window.open(
       `https://github.com/login/oauth/authorize?client_id=${githubClientid}&redirect_uri=${redirectUri}`
     );
